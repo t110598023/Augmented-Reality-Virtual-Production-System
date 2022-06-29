@@ -1,0 +1,159 @@
+html {
+	width:100%;
+	height:100%;
+	overflow: auto;
+}
+
+body {
+	width:100%;
+	height:100%;
+	display: table;
+	overflow: auto;
+}
+
+.header {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 40px;
+	display: table-row;
+}
+
+.stage {
+	position: absolute;
+	top: 40px;
+	width:70%;
+	height:96%;
+	background: #FFFFFF;
+	left:0px;
+	display: table-row;
+	overflow: auto;
+}
+
+.tool {
+	position: absolute;
+	top: 40px;
+	width:30%;
+	height:100%;
+	right:0px;
+	display: table-row;
+}
+
+.toolsetting {
+	position: absolute;
+	width:100%;
+	height:15%;
+	bottom:85%;
+	display: table-row;
+}
+
+.toolsvg {
+	position: absolute;
+	width:100%;
+	height:45%;
+	bottom:40%;
+	display: table-row;
+}
+
+.toolsupport {
+	position: absolute;
+	width:100%;
+	height:40%;
+	bottom: 0px;
+	display: table-row;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 992px) {
+	.modal-lg {
+		width: 1200px;
+	}
+}
+
+#MyModalAllRuleSVG {
+	width: 1170px;
+	height: 700px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	overflow: auto;
+	background-color: #fef3e8;
+}
+
+#MyModalManualSVG {
+	width: 550px;
+	height: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	overflow: auto;
+	background-color: #fef3e8;
+}
+
+#MyModalPalaceLayoutSVG {
+	width: 550px;
+	height: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background-color: #fef3e8;
+}
+
+.dropdown-submenu {
+	position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+	top:0;
+	left:100%;
+	margin-top:-6px;
+	margin-left:-1px;
+	-webkit-border-radius:0 6px 6px 6px;
+	-moz-border-radius:0 6px 6px 6px;
+	border-radius:0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+	display:block;
+}
+
+.dropdown-submenu>a:after {
+	display:block;
+	content:" ";
+	float:right;
+	width:0;
+	height:0;
+	border-color:transparent;
+	border-style:solid;
+	border-width:5px 0 5px 5px;
+	border-left-color:#cccccc;
+	margin-top:5px;
+	margin-right:-10px;
+}
+
+.dropdown-submenu:hover>a:after {
+	border-left-color:#ffffff;
+}
+
+.dropdown-submenu.pull-left {
+	float:none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+	left:-100%;
+	margin-left:10px;
+	-webkit-border-radius:6px 0 6px 6px;
+	-moz-border-radius:6px 0 6px 6px;
+	border-radius:6px 0 6px 6px;
+}
